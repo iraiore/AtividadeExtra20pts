@@ -6,11 +6,11 @@ namespace exercicio9{
             string continuar="s";
             while(continuar=="s"){
                 Console.Write("Digite a 1º nota: ");
-                n1=float.Parse(Console.ReadLine());
+                n1=double.Parse(Console.ReadLine());
                 Console.Write("Digite a 2º nota: ");
-                n2=float.Parse(Console.ReadLine());
+                n2=double.Parse(Console.ReadLine());
                 Console.Write("Digite a º nota: ");
-                n3=float.Parse(Console.ReadLine());
+                n3=double.Parse(Console.ReadLine());
                 media=(n1+n2+n3)/3;
                 if(media>=7){
                     Console.WriteLine("\nO aluno está aprovado");

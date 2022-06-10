@@ -1,7 +1,7 @@
 using System;
 namespace exercicio1{
     public class Program{
-        public static void Main(string[] args ){
+        public static void Main(string[] args){
             int[] valores=new int[4];
             int soma=0;
             for(int i=0; i<4; i++){
