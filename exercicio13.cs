@@ -22,7 +22,7 @@ namespace exercicio13{
                     SomaImpar=SomaImpar+i;
                     numeros_impares=numeros_impares+1;
                 }
-                if(i%2!=0 && i%3==0 && i%7==0){   
+                    if(i%3==0 && i%7==0){   
                     SomaImpar_3e7=SomaImpar_3e7+i;
                     numeros_impares_3e7=numeros_impares_3e7+1;
                 }
@@ -34,7 +34,6 @@ namespace exercicio13{
             media=SomaImpar/(double)numeros_impares;
             Console.Write("\nA media dos numeros impares é: "+media);
             media=SomaImpar_3e7/(double)numeros_impares_3e7;
-            Console.Write("soma impar - "+ SomaImpar_3e7+" numeros impares - "+numeros_impares_3e7);
             Console.Write("\nA media dos numeros impares divisiveis por 3 e 7 é: "+media);
         }
     }

@@ -9,7 +9,7 @@ namespace exercicio9{
                 n1=double.Parse(Console.ReadLine());
                 Console.Write("Digite a 2º nota: ");
                 n2=double.Parse(Console.ReadLine());
-                Console.Write("Digite a º nota: ");
+                Console.Write("Digite a 3º nota: ");
                 n3=double.Parse(Console.ReadLine());
                 media=(n1+n2+n3)/3;
                 if(media>=7){
